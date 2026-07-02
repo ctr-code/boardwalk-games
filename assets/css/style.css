@@ -20,8 +20,13 @@ h3 {
     color: var(--primary-colour);
 }
 
-.subheading-colour {
-    color: var(--highlight-colour);
+/* navbar */
+#navbar {
+    background-color: var(--primary-colour);
+}
+
+#navbar .logo {
+    width: 30px;
 }
 
 /* grid visualisation CSS for testing */
