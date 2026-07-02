@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boardwalk Games</title>
-    <!-- favicon -->
+    <meta name="description"
+        content="Boardwalk Games, your ultimate gaming retreat!  Perfect for casual gamers, enthusiasts, and student gatherings.  Visit us for your next adventure in board gaming.">
+    <title>Boardwalk Games | Home</title> <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -16,9 +17,49 @@
     <link rel="stylesheet" href="assets/css/all.min.css">
 </head>
 
-<body>
-    <h1>Boardwalk Games</h1>
-    <p class="subheading-colour">Under construction!</p>
+<!-- Classes on body work with mt-auto on footer to keep it down at the bottom -->
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navigation -->
+    <div>Navigation</div>
+
+    <!-- Header with carousel -->
+    <header class="container">
+        <div class="row">
+            <div class="col-12 col-xl-6">
+                Intro text
+            </div>
+            <div class="col-12 col-xl-6">
+                Carousel
+            </div>
+        </div>
+    </header>
+
+    <!-- main element, purely semantic -->
+    <main>
+        <!-- Services section -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">Services section heading</div>
+                <div class="col-12 col-md-6 col-xl-3">Service card</div>
+                <div class="col-12 col-md-6 col-xl-3">Service card</div>
+                <div class="col-12 col-md-6 col-xl-3">Service card</div>
+                <div class="col-12 col-md-6 col-xl-3">Service card</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer - contact section -->
+    <footer class="mt-auto">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">Contact section heading</div>
+                <!-- Contact info -->
+                <div class="col-12 col-md-6 col-xl-4">Contact info and social links</div>
+                <!-- Opening times -->
+                <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+            </div>
+        </div>
+    </footer>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
