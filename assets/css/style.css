@@ -20,6 +20,15 @@ h3 {
     color: var(--primary-colour);
 }
 
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
 .subheading-colour {
     color: var(--highlight-colour);
 }
@@ -42,6 +51,18 @@ h3 {
 
 #header .lead {
     font-family: var(--secondary-font);
+}
+
+/* services */
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-colour);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
 }
 
 /* grid visualisation CSS for testing */
