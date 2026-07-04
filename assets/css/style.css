@@ -81,6 +81,42 @@ h2 {
     font-style: italic;
 }
 
+/* footer */
+
+#contact {
+    background-color: var(--primary-colour);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .subheading-colour {
+    color: var(--highlight-colour-light);
+}
+
+#contact i {
+    color: var(--secondary-colour);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--highlight-colour-light);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-colour);
+}
+
+#contact .table-dark * {
+    background-color: transparent;
+}
+
 /* Medium devices, tablets and up */
 @media screen and (min-width: 768px) {
     /* Make the services cards the same height so the bases align */
