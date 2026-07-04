@@ -65,34 +65,74 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* games library */
+
+.games .card-footer {
+    background-color: transparent;
+    border-width: 0;
+}
+
+.games .card {
+    margin-bottom: 1.5rem;
+}
+
+.games .game-data-caption
+{
+    font-style: italic;
+}
+
 /* Medium devices, tablets and up */
 @media screen and (min-width: 768px) {
-    /* Make the cards the same height so the bases align */
+    /* Make the services cards the same height so the bases align */
     #services .card-body {
         min-height: 190px;
+    }
+
+    /* Make the game cards the same height so the bases align */
+    #fav-games .card-body {
+        min-height: 215px;
     }
 }
 
 /* Large devices, small laptops and up */
 @media screen and (min-width: 992px) {
-    /* Make the cards the same height so the bases align */
+    /* Make the services cards the same height so the bases align */
     #services .card-body {
+        min-height: auto;
+    }
+
+    /* Make the game cards the same height so the bases align */
+    #fav-games .card-body {
         min-height: auto;
     }
 }
 
 /* Extra-large devices, laptops and up */
 @media screen and (min-width: 1200px) {
-    /* Make the cards the same height so the bases align */
+    /* Make the services cards the same height so the bases align */
     #services .card-body {
         min-height: 220px;
     }
+
+    /* Make the game cards the same height so the bases align */
+    #fav-games .card-body {
+        min-height: 270px;
+    }
 }
+
 /* Extra-extra-large devices, larger laptops and up */
 @media screen and (min-width: 1400px) {
-    /* Make the cards the same height so the bases align */
+    /* Make the services cards the same height so the bases align */
     #services .card-body {
         min-height: 200px;
+    }
+
+    /* Make the game cards the same height so the bases align */
+    #new-games .card-body {
+        min-height: 195px;
+    }
+    #fav-games .card-body {
+        min-height: 220px;
     }
 }
 
