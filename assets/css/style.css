@@ -65,6 +65,37 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Medium devices, tablets and up */
+@media screen and (min-width: 768px) {
+    /* Make the cards the same height so the bases align */
+    #services .card-body {
+        min-height: 190px;
+    }
+}
+
+/* Large devices, small laptops and up */
+@media screen and (min-width: 992px) {
+    /* Make the cards the same height so the bases align */
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/* Extra-large devices, laptops and up */
+@media screen and (min-width: 1200px) {
+    /* Make the cards the same height so the bases align */
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+/* Extra-extra-large devices, larger laptops and up */
+@media screen and (min-width: 1400px) {
+    /* Make the cards the same height so the bases align */
+    #services .card-body {
+        min-height: 200px;
+    }
+}
+
 /* grid visualisation CSS for testing */
 /*
 .container,
