@@ -21,3 +21,11 @@ Specifically:
 * Enthusiasts seeking information about events and new releases
 * Students looking for budget-friendly options and discounts
 
+## Credits and Thanks
+
+* [Code Institute](https://codeinstitute.net/) for the design, images and text
+* [Bootstrap](https://getbootstrap.com/) for the CSS framework
+* [Font Awesome](https://fontawesome.com/) for icons
+* [Bunny CDN](https://fonts.bunny.net/) for the font hosting
+* John Vargas Beltran for the Macondo font
+* [The Inter Project Authors](https://github.com/rsms/inter) for the Inter font
