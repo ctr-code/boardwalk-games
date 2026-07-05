@@ -99,6 +99,10 @@ h2 {
   font-weight: bold;
 }
 
+#discount-button {
+    border-radius: 0;
+}
+
 /* games library */
 
 .games .card-footer {
