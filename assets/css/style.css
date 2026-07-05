@@ -156,6 +156,15 @@ h2 {
     color: var(--secondary-colour);
 }
 
+#contact .social-links a:focus-visible {
+    outline: none;
+}
+
+#contact .social-links a:focus-visible i {
+    color: var(--secondary-colour);
+    outline: 1px solid var(--secondary-colour);
+}
+
 #contact .table-dark * {
     background-color: transparent;
 }
