@@ -46,6 +46,7 @@ h2 {
     color: white;
 }
 
+.custom-button-filled:focus-visible,
 .custom-button-filled:hover {
     border: 2px solid var(--secondary-colour);
     background-color: var(--secondary-colour);
@@ -59,6 +60,7 @@ h2 {
     padding: 7px 25px;
 }
 
+.custom-button-outline:focus-visible,
 .custom-button-outline:hover {
     color: white;
     background-color: var(--highlight-colour);
